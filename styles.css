@@ -68,6 +68,9 @@ ol {
     /* Primary */
 
     --teal-500: hsl(179, 62%, 43%);
+    --teal-400: hsl(179, 47%, 52%);
+    --teal-200: hsl(180, 68%, 69%);
+    --teal-100: hsl(181, 65%, 74%);
     --green-400: hsl(71, 73%, 54%);
     
     /* Neutral */
@@ -94,3 +97,113 @@ body {
 /* ===========================
    LAYOUT & ELEMENTS
    =========================== */
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    margin: 72px 32px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px -6px rgba(0, 30, 99, 0.2);
+}
+
+.join {
+    color: var(--gray-500);
+    background-color: white;
+    padding: 29px 24px 31px;
+}
+
+.join__title {
+    font-size: 20px;
+    letter-spacing: -0.01rem;
+    color: var(--teal-500);
+}
+
+.join__subtitle {
+    font-size: 15px;
+    letter-spacing: -0.01rem;
+    color: var(--green-400);
+    margin: 25px 0 19px;
+}
+
+.join__description {
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    line-height: 26px;
+}
+
+.subscription {
+    background-color: var(--teal-500);
+    padding: 23px 24px;
+}
+
+.subscription__title {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+}
+
+.subscription__pricing {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 21px 0 9px;
+}
+
+.subscription__price {
+    font-size: 32px;
+}
+
+.subscription__term {
+    font-size: 15px;
+    color: var(--teal-200);
+    letter-spacing: 0.03em;
+}
+
+.subscription__info {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--teal-100);
+    letter-spacing: 0.02em;
+    margin: 6px 0 28px;
+}
+
+.subscription__button {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    background-color: var(--green-400);
+    border-radius: 6px;
+    width: 100%;
+    padding: 14px;
+    box-shadow: 0px 8px 20px -6px rgba(0,0,0,0.2);
+}
+
+.why-us {
+    background-color: var(--teal-400);
+    padding: 22px 24px 23px;
+}
+
+.why-us__title {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.why-us__item {
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--teal-100);
+    letter-spacing: 0.02em;
+}
+
+.footer__attribution { 
+    font-size: 1.125rem; 
+    text-align: center; 
+    padding: 1rem;
+    color: var(--gray-500);
+}
+
+.footer__attribution-link { 
+    color: hsl(228, 45%, 44%); 
+}
+
