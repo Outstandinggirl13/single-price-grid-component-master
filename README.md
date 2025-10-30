@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Single Price Grid Component – Clean and Responsive Layout](https://www.frontendmentor.io/solutions/single-price-grid-component-clean-and-responsive-layout-cE0ouKxCkO)
 - Live Site URL: [GitHub Pages](https://outstandinggirl13.github.io/single-price-grid-component-master/)
 
 ## My process
