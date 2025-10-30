@@ -45,13 +45,13 @@ Users should be able to:
 ### What I learned
 
 1. I centered the entire card using CSS Grid instead of Flexbox this time.
-
+```CSS
 .main {
   display: grid;
   place-items: center;
   min-height: 100vh;
 }
-
+```
 This short and clean approach perfectly centers the component both horizontally and vertically.
 
 2. For the mobile layout, I used the following rule:
@@ -94,7 +94,7 @@ Using named grid areas made the structure much easier to understand and adjust l
 ### Useful resources
 
 - [CSS Flexbox vs Grid - Are you using them right?](https://www.youtube.com/watch?v=aEj6k-gi9-s) – This video gave me a clear and beginner-friendly explanation of how CSS Grid works, which helped me understand concepts like grid-template-columns, auto-fit, and minmax().
-- [CSS Grid Course - The Only Grid Tutorial You'll Ever Need!](https://www.youtube.com/watch?v=aEj6k-gi9-s) – This tutorial showed practical ways to build responsive grid layouts.
+- [CSS Grid Course - The Only Grid Tutorial You'll Ever Need!](https://www.youtube.com/watch?v=JYfiaSKeYhE) – This tutorial showed practical ways to build responsive grid layouts.
 
 ## Author
 
